@@ -2,7 +2,13 @@
 
 ## 1624 file types supported (require Nerd Font >= 3.2.0)
 
-## 🎉🎉 Big update! Now supports nvim-tree, bufferline, lualine...
+## 🎉🎉 Big update! Now supports bufferline, lualine...
+
+## ⚠️⚠️⚠️ Warning⚠️⚠️⚠️  Currently this repo is not compatible with the latest version of [nvim-tree](https://github.com/nvim-tree/nvim-tree.lua). You can use my [nvim-tree](https://github.com/DaikyXendo/nvim-tree.lua) or use:
+
+```lua
+    { "nvim-tree/nvim-tree.lua", commit = "c3c6544ee00333b0f1d6a13735d0dd302dba4f70" },
+```
 
 An improved version of [nvim-web-devicons](https://github.com/nvim-tree/nvim-web-devicons)
 
